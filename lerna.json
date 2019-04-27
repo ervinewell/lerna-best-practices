@@ -2,12 +2,13 @@
   "lerna": "2.7.0",
   "version": "independent",
   "changelog": {
-    "repo": "lerna-best-practice",
     "labels": {
-      "feat": ":rocket: New Feature",
-      "fix": ":bug: Bug Fix",
-      "perf": "Optimization",
-      "docs": ":memo: Documentation"   
+      "tag: new feature": ":rocket: New Feature",
+      "tag: breaking change": ":boom: Breaking Change",
+      "tag: bug fix": ":bug: Bug Fix",
+      "tag: enhancement": ":nail_care: Enhancement",
+      "tag: documentation": ":memo: Documentation",
+      "tag: internal": ":house: Internal"
     },
     "cacheDir": ".changelog"
   },
